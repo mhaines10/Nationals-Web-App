@@ -1,0 +1,13 @@
+<body>
+    <div class="container">
+            <mat-form-field appearance="fill">
+                <mat-label>Select Batter</mat-label>
+                <mat-select [value]="selectedBatter" (selectionChange)="batterChosen($event)">
+                    <mat-option *ngFor="let batter of batters" [value]="batter">
+                        {{batter.firstName}} {{batter.lastName}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+    </div>
+</body>
+

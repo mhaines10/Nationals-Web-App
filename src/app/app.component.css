@@ -1,0 +1,15 @@
+  body {
+      margin: 0;
+  }
+  .homePage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/baseballBG.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+  }
+
+  .toolBar {
+    color: accent;
+  }

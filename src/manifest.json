@@ -1,0 +1,9 @@
+{
+    "name": "Angular Progressive Web App",
+    "short_name": "angularWebApp",
+    "start_url": "./",
+    "theme_color": "#008080",
+    "background_color": "#008B8B",
+    "display": "standalone",
+    "description": "A PWA that is built with Angular"
+}

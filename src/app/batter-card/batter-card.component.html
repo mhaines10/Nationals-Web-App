@@ -1,0 +1,16 @@
+<div class="mainContainer"> 
+    <mat-card class="card">
+        <div *ngIf="batterSelectedRender; else logoDisp">
+            <h1>
+                Name: {{_batter.firstName}} {{_batter.lastName}}
+            </h1>
+            <h2>Position: {{_batter.position}}</h2>
+            <div>
+                <app-bar-chart [stats]="_stats" [updateDate]="updateDate"></app-bar-chart>
+            </div>
+        </div>     
+        <ng-template #logoDisp>
+            <img src='../../assets/natsLogo.png'/>
+        </ng-template>          
+    </mat-card>
+</div>

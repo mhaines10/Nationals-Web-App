@@ -1,0 +1,18 @@
+.mainContainer {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    height: 60%;
+    top: 10%;
+    left: 5%;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.batterCard {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
